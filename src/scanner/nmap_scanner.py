@@ -32,6 +32,6 @@ class NmapScanner:
 # 示例使用
 if __name__ == "__main__":
     scanner = NmapScanner()
-    target = "172.17.170.69"  # 示例目标 IP 地址
+    target = "192.168.47.134"  # 示例目标 IP 地址
     result = scanner.run_scan(target)
     print(result)
